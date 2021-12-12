@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;500&family=Roboto:wght@100;300;400&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="assests/css/admin.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <div class="name-dashboard">
+      <a href="">
+        <i class="fab fa-apple"></i>
+        <span>Admin DashBoard</span>
+      </a>
+    </div>
+    <div class="home-screen">
+      <a href="#">Home</a>
+    </div>
+    <!-- <form  method="get" id="form-register-product">
+      <div class="board board-register active">
+        <div class="left-board">
+          <label class="title">Product</label>
+          <div class="form-input">
+            <input type="text" id="" required>
+            <label class="space-tb">Username</label>
+            <span></span>
+          </div>
+          <div class="form-input">
+            <input type="text" id="full-name" required>
+            <label class="space-tb">Full Name</label>
+            <span></span>
+          </div>
+          <div class="form-input">
+            <input type="text" id="address" required>
+            <label class="space-tb">Address</label>
+            <span></span>
+          </div>
+          <div class="form-input">
+            <input type="text" id="phone-number" required>
+            <label class="space-tb">Phone Number</label>
+            <span></span>
+          </div>
+          <div class="form-input">
+            <input type="password" id="password-register" required>
+            <label class="space-tb">Password</label>
+            <span></span>
+          </div>
+          <div class="form-input">
+            <input type="password" id="re-password" required>
+            <label class="space-tb">Re-password</label>
+            <span></span>
+          </div>
+          <div class="bot-board">
+            <input type="submit" value="Sign In">
+          </div>
+          <div class="btn-close btn-register">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+    </form> -->
+  </div>
+  
+  <div class="container">
+    <nav class="menu">
+      <div class="name-user">
+        <a href="">
+          <i class="fas fa-user-circle"></i>
+          <span>Võ Minh Tấn</span>
+        </a>
+      </div>
+      <ul>
+        <li>
+          <a class="hover-text" href="#" onclick="innerUser()">
+            <i class="ion ion-person"></i>
+            <span>Quản lý khách hàng</span>
+          </a>
+        </li>
+        <li>
+          <a class="hover-text" href="#" onclick="innerProducts()">
+            <i class="ion ion-bag"></i>
+            <span>Quản lý sản phẩm</span>
+          </a>
+        </li>
+        <li>
+          <a class="hover-text" href="">
+            <i class="ion ion-stats-bars"></i>
+            <span>Quản lý doanh thu</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="items">
+        <div class="products box">
+          <div class="inner">
+            <span>0</span>
+            <p>Products</p>
+          </div>
+          <div class="icon">
+            <i class="ion ion-bag"></i>
+            <a href="# " onclick="innerProducts()">
+              <span>More info</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="consumer box">
+          <div class="inner">
+            <span>0</span>
+            <p>User Registrations</p>
+          </div>
+          <div class="icon">
+            <i class="ion ion-person-add"></i>
+            <a href="#" onclick="innerUser()">
+              <span>More info</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="revenue box">
+          <div class="inner">
+            <span>0</span>
+            <p>Revenue</p>
+          </div>
+          <div class="icon">
+            <i class="ion ion-stats-bars"></i>
+            <a href="">
+              <span>More info</span>
+              <i class="fas fa-arrow-circle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <div id="table">
+          
+        </div>
+        <div class="page">
+
+        </div>
+        <div id="form-id" class="form">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+
+  </div>
+  
+  <script src="js/admin.js"></script>
+</body>
+</html>
